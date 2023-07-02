@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -s $CFILE -o 'echo $CFILE | cut -d. -fl '.s
+gcc -S $CFILE -o 'echo $CFILE | cut -d. -fl '.s
 
