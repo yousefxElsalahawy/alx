@@ -1,22 +1,18 @@
+
 #include "main.h"
+
 /**
- * main - check the code
- * @s: function that returns the factorial of a given number.
+ * factorial - returns the factorial of a number
+ * @n: number to return the factorial from
  *
- * Return: Always 0
+ * Return: factorial of n
  */
 int factorial(int n)
 {
 	if (n < 0)
-	{
 		return (-1);
-	}
-	esle if (n == 0)
-	{
+	if (n == 0)
 		return (1);
-	}
-	else
-	{
-		return (n * factorial(n - 1));
-	}
+	return (n * factorial(n - 1));
 }
+
