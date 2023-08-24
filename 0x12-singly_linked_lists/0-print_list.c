@@ -1,4 +1,5 @@
 #include <list.h>
+#include <stdio>
 
 /**
  * strlen - return the lenght of string
