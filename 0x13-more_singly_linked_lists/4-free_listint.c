@@ -3,8 +3,6 @@
 /**
  * free_listint - function that frees a listint_t list.
  * @head: the first node
- *
- * Return: success
  */
 void free_listint(listint_t *head)
 {
