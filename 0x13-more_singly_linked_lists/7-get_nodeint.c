@@ -7,7 +7,7 @@
  *
  * Return: pointer to the node we're looking for, or NULL
  */
-istint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	unsigned int i = 0;
 
@@ -22,8 +22,10 @@ istint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 			head = head->next;
 		}
 		else
+		{
 			return (head);
 			break;
+		}
 	}
 	return (NULL);
 
